@@ -1,0 +1,9 @@
+=begin sbml
+
+=object blank: style=blank_top
+=object progress: type=loading, owner=${web-id}.web, style=progress_web
+=object web: id=${web-id}.web, javascript-bridge="__$_bridge", uses-browser-user-agent=yes, \
+            script-when-start=${web-prefix}__on_web_start, \
+            style=web
+
+=end sbml
